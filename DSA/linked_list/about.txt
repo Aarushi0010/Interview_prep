@@ -1,0 +1,9 @@
+For Linked List , following are the basic to advanced things will be done : 
+
+singly linked list : 
+1. creation and traversal 
+2. insertion at start and end 
+
+doubly linked list : 
+1. creation and traversal 
+2. insertion at start and end
