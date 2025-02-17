@@ -12,3 +12,12 @@ Basic terminologies :
 2. Array element: Elements are items stored in an array and can be accessed by their index.
 3. Array Length: The length of an array is determined by the number of elements it can contain.
 
+Array Declaration : 
+arr : []
+
+Array Initialization : 
+arr = [1, 2, 3, 4, 5]
+
+Types of Arrays : 
+Basis of Size [fixed , dynamic]
+Basis of Dimension [one dimension , multi]
