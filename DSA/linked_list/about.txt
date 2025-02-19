@@ -4,6 +4,17 @@ singly linked list :
 1. creation and traversal 
 2. insertion at start and end 
 
+INITIALIZATION : 
+class LinkedList:
+    def __init__(self , value):
+          self.next = None
+          self.value = value
+
+head = LinkedList(1)
+print(f"{head.value})
+
+output: 1 
+
 doubly linked list : 
 1. creation and traversal 
 2. insertion at start and end
