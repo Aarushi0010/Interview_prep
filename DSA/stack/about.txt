@@ -1,0 +1,20 @@
+Data structure that allowas the operations to follow in a specific order - LIFO
+Last In First Out
+
+Push - adding an element to stack 
+Pop - removing an element from stack 
+Peek - to check/read which element is at top
+Size - number of elements in stack 
+
+Note - initially the value of top variable is set to -1
+
+stack overflow - condition when stack is completely full to its size 
+stack underflow - condition when stack has no element 
+
+pop function - will accept element value as argument 
+push function - won't accept argument as always the last element is popped
+
+peek - returns element (last for stack , depends for queue)
+isFull - return bool value , to check if stack/queue are full 
+isEmpty - return bool value , to ckeck if stack/queue are empty 
+
