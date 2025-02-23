@@ -1,0 +1,24 @@
+It stores data items or there references in contiguous memory locations . 
+Has following benefits over other data structure : 
+
+1. Random Access : using indices of the array items 
+2. Cache Friendliness : as contiguous memory allocation , so locality of references
+
+It is a LINEAR DATA STRUCTURE 
+
+Basic terminologies : 
+
+1. Array Index: In an array, elements are identified by their indexes. Array index starts from 0.
+2. Array element: Elements are items stored in an array and can be accessed by their index.
+3. Array Length: The length of an array is determined by the number of elements it can contain.
+
+Array Declaration : 
+arr : []
+
+Array Initialization : 
+arr = [1, 2, 3, 4, 5]
+
+Types of Arrays : 
+Basis of Size [fixed , dynamic]
+Basis of Dimension [one dimension , multi]
+
