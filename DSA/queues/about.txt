@@ -6,7 +6,7 @@ Terminologies:
 3. Size : refers to the current number of elements in the queue.
 4. Capacity : refers to the maximum number of elements the queue can hold.
 
-Operations: 
+Operations (O(1)): 
 1. Enqueue : Addition of element to queue
 changes - shift rear to next position and add element at rear
 
