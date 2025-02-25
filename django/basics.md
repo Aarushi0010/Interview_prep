@@ -9,3 +9,4 @@
 2. move to project - cd project-name <br>
 3. run the py file - python manage.py runserver <br><br>
 Note: The dafault server for running the django file is - 8000
+<br><br>

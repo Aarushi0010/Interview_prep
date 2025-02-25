@@ -1,0 +1,25 @@
+A linear data structure, following FIFO principle 
+
+Terminologies:
+1. Front / Head: position of entry in a queue ready to be served, he first entry that will be removed from the queue
+2. Rear / Tail: Position of the last entry in the queue, that is, the one most recently added
+3. Size : refers to the current number of elements in the queue.
+4. Capacity : refers to the maximum number of elements the queue can hold.
+
+Operations: 
+1. Enqueue : Addition of element to queue
+changes - shift rear to next position and add element at rear
+
+2. Dequeue : Remove element from queue
+changes - remove element at front and shift front to next pointer
+
+3. Peek/Front : return front element
+
+4. Size : number of elements returned
+
+5. isFull / isEmpty
+
+Applications:
+1. Used as buffer when speed of producer and consumer mismatched. Ex: Keyboard and CPU
+2. Used when we have single resource and multiple users. Ex: cpu and multiple processes
+3. In algorithm techniques like BFS or Topological sort,etc. 
