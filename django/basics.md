@@ -10,3 +10,7 @@
 3. run the py file - python manage.py runserver <br><br>
 Note: The dafault server for running the django file is - 8000
 <br><br>
+Creating an app:<br>
+1. Main thing - to stay in venv & make sure the directory has manage.py file <br>
+2. run cmd - python manage.py startapp app-name <br>
+So project gets to know that there is an app in it. Also we use DTL(jinja - refer documentation) <br>
