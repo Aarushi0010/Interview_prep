@@ -27,3 +27,11 @@ For <b>App</b> created in the project : <br>
 3. add view, render the file- 'chai/name.html' <br>
 4. now view to be passed in urls <br>
 5. In main Project make sure to add path to 'chai.urls' by using include import<br>
+Note: make sure to add the app name in the settings file of project as without itm nothing would work <br>
+
+<h2>Adding Tailwind to project</h2><br>
+1. use cmd - pip install django-tailwind , inside the venv <br>
+2. also install the reload feature - pip install 'django-tailwin[reload]' <br>
+3. add 'tailwind' in settings file <br>
+4. now initialize tailwind - python manage.py tailwind init <br>
+5. give app name in prompt <br>
