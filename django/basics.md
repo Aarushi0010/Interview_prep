@@ -35,3 +35,8 @@ Note: make sure to add the app name in the settings file of project as without i
 3. add 'tailwind' in settings file <br>
 4. now initialize tailwind - python manage.py tailwind init <br>
 5. give app name in prompt <br>
+6. Also add two configs in the settings.py - TAILWIND_APP_NAME & INTERNAL_IPS<br>
+7. install tailwind - python manage.py tailwind install <br>
+<h3>Tips before install the tailwind <br>
+In settings.py file make sure to add the NPM_BIN_PATH (can get it from cmd prompt - npm where)<br>
+Also add the path containing "cmd" eg. r"PATH\TO\NPM" , including r to resolve black-slash issues.<br>
