@@ -46,6 +46,14 @@ Also add the path containing "cmd" eg. r"PATH\TO\NPM" , including r to resolve b
 2. start tailwind in venv - python manage.py tailwind start <br>
 3. in another terminal inside venv run the project - python manage.py runserver <br>
 4. for production we can use it in one terminal with cmd - python manage.py tailwind build <br><br>
+<h2>Admin Panel</h2><br>
+Firstly, run cmd python manage.py migrate to get the admin authentication and remove the migrate errors <br>
+Also by default we have settings for admin <br>
+For creating superuser for admin : <br> 
+a. run cmd - python manage.py createsuperuser <br>
+b. make sure you have run the 'migrate' command <br>
+c. add the necessary details (username , pswd , etc) <br>
+d. run the project and '/admin' , add details and you will get the superuser access <br>
 
 
 
