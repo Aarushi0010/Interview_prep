@@ -40,3 +40,15 @@ Note: make sure to add the app name in the settings file of project as without i
 <h3>Tips before install the tailwind <br>
 In settings.py file make sure to add the NPM_BIN_PATH (can get it from cmd prompt - npm where)<br>
 Also add the path containing "cmd" eg. r"PATH\TO\NPM" , including r to resolve black-slash issues.<br>
+
+<h2>Starting tailwind</h2><br>
+1. Add the required css code in the file(index.html)<br>
+2. start tailwind in venv - python manage.py tailwind start <br>
+3. in another terminal inside venv run the project - python manage.py runserver <br>
+4. for production we can use it in one terminal with cmd - python manage.py tailwind build <br><br>
+
+
+
+
+<h3>Future Add-on</h3><br>
+Add the hot reload feature in this to see the frontend changes reflecting quickly to the project.<br>
