@@ -8,7 +8,8 @@
 1. create project - django-admin startproject project-name <br>
 2. move to project - cd project-name <br>
 3. run the py file - python manage.py runserver <br><br>
-Note: The dafault server for running the django file is - 8000
+Note: The dafault server for running the django file is - 8000<br>
+In case of demo application: Project - learning and App - chai
 <br><br>
 <h2>Creating an app:</h2><br>
 1. Main thing - to stay in venv & make sure the directory has manage.py file <br>
@@ -55,7 +56,13 @@ b. make sure you have run the 'migrate' command <br>
 c. add the necessary details (username , pswd , etc) <br>
 d. run the project and '/admin' , add details and you will get the superuser access <br>
 
-
+<h2>Adding Images to project</h2><br>
+1. add settings in model.py file <br>
+2. install pillow - pip install Pillow<br>
+3. add configurations in settings.py > urls.py<br>
+4. make migrations for app - python manage.py makemigrations learning <br>
+5. migrate - python manage.py migrate <br>
+6. in admin.py import the model and use it as a superuser <br>
 
 
 <h3>Future Add-on</h3><br>
