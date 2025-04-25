@@ -24,7 +24,30 @@ class ArrayQueue :
         print(item , 'added')
         self.currSize += 1
 
+    def dequeue(self) -> int : 
+
+        if self.isEmpty():
+            return -1
+        
+        self.start = (self.start + 1)% self.capacity
+        self.currSize -= 1
+        print('popped at index: ', self.start ,'value : ' ,self.arr[self.start])
+
+    
+    def peek(self) -> int : 
+        if self.isEmpty():
+            return -1
+        
+        print (self.arr[self.start])
+    
+    def size(self) -> int:
+        print (self.currSize)
+
+
 if __name__ == '__main__':
     q = ArrayQueue()
-    q.enqueue(20)
     q.enqueue(10)
+    q.enqueue(20)
+    q.dequeue()
+    q.peek()
+    q.size()
